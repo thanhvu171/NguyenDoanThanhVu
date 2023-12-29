@@ -30,11 +30,11 @@ namespace BaiTap03
             Phanso tong = PS1.tinhTong(PS2);
             Console.WriteLine("Tong cua 2 phan so la: {0}/{1} + {2}/{3} = {4}/{5}", PS1.getTuso(), PS1.getMauso(), PS2.getTuso(), PS2.getMauso(), tong.getTuso(), tong.getMauso());
             Phanso hieu = PS1.tinhHieu(PS2);
-            Console.WriteLine("Hieu cua 2 phan so la: {0}/{1} + {2}/{3} = {4}/{5}", PS1.getTuso(), PS1.getMauso(), PS2.getTuso(), PS2.getMauso(), hieu.getTuso(), hieu.getMauso());
+            Console.WriteLine("Hieu cua 2 phan so la: {0}/{1} - {2}/{3} = {4}/{5}", PS1.getTuso(), PS1.getMauso(), PS2.getTuso(), PS2.getMauso(), hieu.getTuso(), hieu.getMauso());
             Phanso tich = PS1.tinhTich(PS2);
-            Console.WriteLine("Tich cua 2 phan so la: {0}/{1} + {2}/{3} = {4}/{5}", PS1.getTuso(), PS1.getMauso(), PS2.getTuso(), PS2.getMauso(), tich.getTuso(), tich.getMauso());
+            Console.WriteLine("Tich cua 2 phan so la: {0}/{1} * {2}/{3} = {4}/{5}", PS1.getTuso(), PS1.getMauso(), PS2.getTuso(), PS2.getMauso(), tich.getTuso(), tich.getMauso());
             Phanso thuong = PS1.tinhTong(PS2);
-            Console.WriteLine("Thuong cua 2 phan so la: {0}/{1} + {2}/{3} = {4}/{5}", PS1.getTuso(), PS1.getMauso(), PS2.getTuso(), PS2.getMauso(), thuong.getTuso(), thuong.getMauso());
+            Console.WriteLine("Thuong cua 2 phan so la: {0}/{1} / {2}/{3} = {4}/{5}", PS1.getTuso(), PS1.getMauso(), PS2.getTuso(), PS2.getMauso(), thuong.getTuso(), thuong.getMauso());
 
             int N;
             N = nhapSonguyencoDK("Nhap so nguyen duong n: ", "Nhap so nguyen duong n: ");
